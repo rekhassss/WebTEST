@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <style>
+      
+   .box{
+  width: 500px;
+  background:lightpink;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color:blueviolet;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: mediumvioletred;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color:goldenrod;
+}
+           
+           
+           
+           
+.dropbtn {
+  background-color: purple;
+  color:black;
+  padding: 9px;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:plum;
+ 
+ 
+ 
+}
+
+.dropdown-content a {
+  color: black;
+ text-decoration: none;
+  display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:purple;}
+           
+</style>
+    </head>
+
+    
+    
+    
+    
+<!--    <html>
+<head>
+    <meta charset="utf-8">
+<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    
+    <title>Personal WebSite</title>
+    
+      <div class="box">
+  <img src="C:\Users\anand\Desktop\REKHA PROJECT\image\profile.jpg" alt="" class="box-img">
+        <h1>Hello,</h1>
+      <h4>a bit about me:</h4>
+<h5>Web Devloper - Web Designer</h5>
+<p>
+Launching My personal webPage designed by me</p>
+<ul>
+<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+  </head>
+  <body>
+
+           
+</body>
+</html>
+!-->
+    
+    
+
+<html>
+<head>
+	<title>Simple RekhA's WebPage</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background:purple;
+			background-blend-mode: soft-light;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 80px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: black;
+		}
+
+		.nav-list li a:hover {
+			color: hotpink;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid yellow;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color:powderblue;
+			height: 200px;
+		}
+
+		.secondsection {
+			background-color: lightcyan;
+			height: 200px;
+		}
+        
+        .thirdsection {
+			background-color: lightpink;
+			height: 100px;
+		}
+
+        
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 30%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+        
+        
+        .thirdhalf img {
+			width: 70%;
+			border: 4px solid red;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+            font-size: 35px;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+           
+			
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 200%;
+			margin: auto;
+            background-color:aliceblue;
+			height: 150px;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 100px;
+			
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+              <img   src="C:\Users\anand\Desktop\REKHA PROJECT\image\logo.png">
+				
+			</div>
+            
+            
+            
+            
+            
+            
+            <div class="dropdown">
+  <button class="dropbtn">Courses</button>
+  <div class="dropdown-content">
+<li><a href="#web">Web Technology</a></li>
+     <li><a href="#program">C Programming</a></li>
+    
+  </div>
+</div>
+    
+<!--			<li><a href="#web">Web Technology</a></li>!-->
+			
+			<li><a href="contactform">Contact Form</a></li>
+            <li><a href="#aboutme">AboutMe!</a></li>
+            
+                    
+            
+            
+		</ul>
+
+        
+        
+		<div class="rightNav">
+            
+            <form action="http://www.google.com/search" method="get">
+    <input type="text" name="q"/>
+    
+
+			<!--<input type="text" name="search" id="search">!-->
+            <button class="btn btn-sm"><h1 class="text-small" id="search">Search</h1></button>
+            </form>
+		</div>
+	</nav>
+    
+    
+    
+    
+    
+     <section class="thirdsection">
+		<div class="box-main">
+			<div class="thirdHalf">
+				<h1 class="text-big" id="aboutme">About Me!</h1>
+				<p class="text-small">
+					Personal Website
+				</p>
+			</div>
+		</div>
+	</section>
+    
+    
+    
+    
+    
+    
+    
+<script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <div class="box">
+       
+  <img src="C:\Users\anand\Desktop\REKHA PROJECT\image\profile.jpg" alt="" class="box-img">
+        <h1>Hello,</h1>
+      <h4>a bit about me:</h4>
+<h5>Web Devloper - Web Designer</h5>
+<p>
+Launching My personal webPage designed by me</p>
+<ul>
+<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+     <body style="background-color:indianred">
+    </body>  
+
+    
+
+    
+    <section class="firstsection">
+	<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">Web Technology</h1>
+				<p class="text-small">
+					HTML stands for HyperText Markup Language.
+					It is used to design web pages using a markup
+					language. HTML is the combination of Hypertext
+					and Markup language. Hypertext defines the
+					link between the web pages. A markup language
+					is used to define the text document within tag
+					which defines the structure of web pages.
+					HTML is a markup language that is used by the
+					browser to manipulate text, images, and other
+					content to display it in the required format.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	
+		
+
+	
+    
+    
+    <section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language. It
+					was initially developed by Dennis Ritchie
+					as a system programming language to write
+					operating system. The main features of C
+					language include low-level access to memory,
+					simple set of keywords, and clean style,
+					these features make C language suitable for
+					system programming like operating system or
+					compiler development.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+    
+    <section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
+
+			<p class="sectionSubTag text-small">
+				Java has been one of the most popular
+				programming language for many years.
+				Java is Object Oriented. However it is
+				not considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
+		</div>
+            <br>
+
+		<div class="thumbnail">
+			<img src= "C:\Users\anand\Desktop\REKHA PROJECT\image\bird.jpg" alt="laptop image">
+		</div>
+	</section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form - PHP/MySQL Demo Code</title>
+</head>
+
+<body>
+<fieldset>
+<legend>Contact Form</legend>
+<form name="frmContact" method="post" action="contact.php">
+<p>
+<label for="Name">Name </label>
+<input type="text" name="txtName" id="txtName">
+</p>
+<p>
+<label for="email">Email</label>
+<input type="text" name="txtEmail" id="txtEmail">
+</p>
+<p>
+<label for="phone">Phone</label>
+<input type="text" name="txtPhone" id="txtPhone">
+</p>
+<p>
+<label for="message">Message</label>
+<textarea name="txtMessage" id="txtMessage"></textarea>
+</p>
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>
